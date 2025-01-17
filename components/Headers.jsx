@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-
+import "../src/index.css";
 function Headers(props) {
   const [display, setDisplay] = useState("interface");
   return (
     <>
       <nav>
-        <p className="NavItem" id="learn">
+        <p className="NavItem  bg-slate-600" id="learn">
           Learn {props.hithere}
         </p>
 
