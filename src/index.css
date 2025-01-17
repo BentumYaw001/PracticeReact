@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  border-bottom: 1px solid hsl(0, 0%, 50%, 0.5);
+  padding: 20px;
+  cursor: pointer;
+}
+
+.NavItem {
+  font-size: 1.5rem;
+  color: #808080;
+}
+
+.NavItem:hover {
+  color: green;
+  transition: 0.4s;
+  border-bottom: 2px solid blue;
+}
