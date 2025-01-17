@@ -12,7 +12,6 @@ function Headers(props) {
         <input
           type="text"
           name="text"
-          id=""
           onChange={(e) => {
             setDisplay(e.target.value);
           }}
